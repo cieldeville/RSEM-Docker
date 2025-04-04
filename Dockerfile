@@ -98,4 +98,6 @@ RUN <<EOF
 rm -R R-${R_VERSION}
 rm -R RSEM-${RSEM_VERSION}
 
+apt-get autoremove
+
 EOF
