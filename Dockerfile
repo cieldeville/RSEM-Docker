@@ -8,6 +8,8 @@ LABEL org.opencontainers.image.title="RSEM v${RSEM_VERSION} on Debian 12.10"
 LABEL org.opencontainers.image.description="RSEM v${RSEM_VERSION} bundled with R v${R_VERSION} on Debian 12.10. Does not support integrated aligner usage to keep container image small."
 LABEL org.opencontainers.image.authors="Ciel DeVille <ciel.dev@pm.me>"
 LABEL org.opencontainers.image.version="${RSEM_VERSION}"
+LABEL org.opencontainers.image.url="https://github.com/cieldeville/RSEM-Docker"
+LABEL org.opencontainers.image.source="https://github.com/cieldeville/RSEM-Docker"
 
 WORKDIR /usr/local/app
 
