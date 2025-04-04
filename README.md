@@ -1,5 +1,5 @@
 # RSEM-Docker
-![Docker Image Version](https://img.shields.io/docker/v/cieldeville/rsem?label=Image%20Version) ![Docker Image Size](https://img.shields.io/docker/image-size/cieldeville/rsem?label=Image%20Size) ![License MIT](https://img.shields.io/badge/License-MIT-blue) ![Maintenance Status](https://img.shields.io/badge/Maintenance%20Status-Inactive-yellow
+[![Docker Image Version](https://img.shields.io/docker/v/cieldeville/rsem?label=Image%20Version)](https://hub.docker.com/r/cieldeville/rsem) [![Docker Image Size](https://img.shields.io/docker/image-size/cieldeville/rsem?label=Image%20Size)](https://hub.docker.com/r/cieldeville/rsem) ![License MIT](https://img.shields.io/badge/License-MIT-blue) ![Maintenance Status](https://img.shields.io/badge/Maintenance%20Status-Inactive-yellow
 )
 
 This project provides a simple Dockerfile which can be used to build docker images of various versions of the [RSEM software suite](https://github.com/deweylab/RSEM) developed by Bo Li, Colin Dewey, and Peng Liu. The image is based on Linux Debian 12.10 and includes R. Both R and RSEM get built from source.
